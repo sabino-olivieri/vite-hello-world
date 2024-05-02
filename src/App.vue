@@ -1,10 +1,14 @@
 <script>
-import AppTitle from './components/AppTitle.vue'
+import AppTitle from './components/AppTitle.vue';
+import AppBanner from './components/AppBanner.vue';
+import AppImage from './components/AppImage.vue';
 
 export default {
 
   components: {
     AppTitle,
+    AppBanner,
+    AppImage,
   },
 
   data() {
@@ -20,7 +24,7 @@ export default {
   <div class="container">
 
     <AppTitle />
-    
+    <AppImage />
   </div>
 
 </template>
